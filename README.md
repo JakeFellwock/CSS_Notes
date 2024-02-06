@@ -1,3 +1,5 @@
+# CSS NOTES
+
 STYLE Attribute
 The ```<style> ```tag is used to define style information (CSS) for a document. <br>
 Inside the ```<style>``` element you specify how HTML elements should render in a browser. <br>
