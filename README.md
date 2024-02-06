@@ -10,21 +10,21 @@ The ```<style>``` element must be included inside the ```<head>``` section of th
 ```   h1 { ``` <br>
 ```     text-align: center;``` <br>
  ```     }``
- ``   h2 {``
- ```    text-align: center;``<br>
- ```    }``
+ ``   h2 {```
+ ```    text-align: center;``` <br>
+ ```    }```
 ``    p {``
  ``     text-align: center;``<br>
  ``     }``
       
-``````    </style>``` <br>
+```   </style>``` <br>
 
 You can separate selectors by "," to add multiple elements to the same style sheet
-```<style>``
-``    h1, h2, p {``
-``       text-align: center;``
-``      }``
-`` </style>``
+```<style>``` <br>
+``    h1, h2, p {`` <br>
+``       text-align: center;`` <br>
+``      }`` <br>
+`` </style>`` <br>
 
 You have styled three elements by writing CSS inside the style tags. This works, but since there will be many more styles, it's best to put all the styles in a separate file and link to it. <br>
 
