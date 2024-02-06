@@ -6,16 +6,16 @@ The ```<style>``` element must be included inside the ```<head>``` section of th
  ```   h1 {text-align: center;}``` <br>
  ```</style>``` <br>
 
-```<style>``` <br>
-```   h1 { ``` 
-```     text-align: center;``` 
- ```     }``
- ``   h2 {```
- ```    text-align: center;``` 
- ```    }```
-``    p {``
- ``     text-align: center;``
- ``     }``
+```<style> <br>
+      h1 { 
+       text-align: center;
+       }
+      h2 {
+       text-align: center;
+     }
+      p {
+       text-align: center;
+      }```
       
 ```   </style>``` <br>
 
