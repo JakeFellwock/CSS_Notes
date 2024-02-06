@@ -5,8 +5,8 @@ The ```<style>``` element must be included inside the ```<head>``` section of th
  ```<style>``` <br>
  ```   h1 {text-align: center;}``` <br>
  ```</style>``` <br>
-
-```<style> <br>
+```
+   <style>
       h1 { 
        text-align: center;
        }
@@ -15,38 +15,44 @@ The ```<style>``` element must be included inside the ```<head>``` section of th
      }
       p {
        text-align: center;
-      }```
+      }
       
-```   </style>``` <br>
+   </style>
+```
+
 
 You can separate selectors by "," to add multiple elements to the same style sheet
-```<style>``` <br>
-``    h1, h2, p {`` <br>
-``       text-align: center;`` <br>
-``      }`` <br>
-`` </style>`` <br>
+```
+   <style>
+    h1, h2, p {
+     text-align: center;
+     }
+   </style>
+```
 
 You have styled three elements by writing CSS inside the style tags. This works, but since there will be many more styles, it's best to put all the styles in a separate file and link to it. <br>
 
 Create a separate styles.css file and add it to the project directory. <br>
 
 Now you need to link the styles.css file so the styles will be applied. Nest a self-closing link element in the head element<br> Give it a rel attribute value stylesheet and an href attribute value of styles.css. <br>
-``<head>`` 
-``    <link rel="stylesheet" href="styles.css"``
-``    <meta charset="utf-8" />``
-``    <title>Cafe Menu</title>``
-``  </head>``
-
+```
+    <head>
+      <link rel="stylesheet" href="styles.css"
+      <meta charset="utf-8" />
+      <title>Cafe Menu</title>
+    </head>
+```
 Comments in CSS look like this: <br>
-/* comment here */ <br>
+```/* comment here */ <br>```
 
 So far you have been using type and id selectors to style elements. However, it is more common to use a different selector to style your elements. <br>
 
 A class selector is defined by a name with a dot directly in front of it, like this:<br>
-
-``.class-name {``
-``  styles``
-``}``
+```
+.class-name {
+  styles
+}
+```
 
 Change the existing #menu selector into a class selector by replacing #menu with a class named .menu. <br>
 
@@ -54,8 +60,8 @@ You can use an hr element to display a divider between sections of different con
 self closing ``<hr>`` inserts a line  <br>
 
 
-Example CSS: <br>
-
+Example CSS: 
+```
 body {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
   font-family: sans-serif;
@@ -144,3 +150,4 @@ a:hover {
 a:active {
   color: brown;
 }
+```
