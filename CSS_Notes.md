@@ -43,7 +43,7 @@ Now you need to link the styles.css file so the styles will be applied. Nest a s
     </head>
 ```
 Comments in CSS look like this: <br>
-```/* comment here */ ```
+```/* comment here */```
 
 So far you have been using type and id selectors to style elements. However, it is more common to use a different selector to style your elements. <br>
 
