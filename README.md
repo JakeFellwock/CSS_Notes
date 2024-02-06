@@ -7,14 +7,14 @@ The ```<style>``` element must be included inside the ```<head>``` section of th
  ```</style>``` <br>
 
 ```<style>``` <br>
-```   h1 { ``` <br>
-```     text-align: center;``` <br>
+```   h1 { ``` 
+```     text-align: center;``` 
  ```     }``
  ``   h2 {```
- ```    text-align: center;``` <br>
+ ```    text-align: center;``` 
  ```    }```
 ``    p {``
- ``     text-align: center;``<br>
+ ``     text-align: center;``
  ``     }``
       
 ```   </style>``` <br>
