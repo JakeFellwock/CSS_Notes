@@ -153,3 +153,37 @@ a:active {
   color: brown;
 }
 ```
+
+CSS
+coloring in 3 ways
+inline style -
+class linking to CSS
+style tag
+
+
+order of specificity 
+<!important> breaks rules of specificity to apply an attribute thats not as specific
+
+Can edit page via developer options in browser to mess around before you commit to your code
+
+Sets the size of the screen for what ever device you use - basically a ruler 
+View port width - size of the screen ```<vw>``
+View port height - size of the screen ``<vh>``
+
+margin: 100px 50px 34px 93px is clockwise for box margin
+
+psuedo selector 
+
+
+html
+[--------------element--------------------]
+[opening tag--attribute----------------closing tag]
+``<a            href="./otherPage.html" ></a>``
+css
+using stylesheet
+[selector --- property ------ value   ]
+body     {  background-color: "blue";  }
+inline
+``<p style="background-color:blue;"></p>``
+
+Rem unit stands for root em, and is relative to the font size of the html element. <br>
