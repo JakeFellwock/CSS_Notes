@@ -176,14 +176,14 @@ psuedo selector
 
 
 html
-[--------------element--------------------]
-[opening tag--attribute----------------closing tag]
-``<a            href="./otherPage.html" ></a>``
-css
-using stylesheet
-[selector --- property ------ value   ]
-body     {  background-color: "blue";  }
-inline
-``<p style="background-color:blue;"></p>``
+[--------------element--------------------] <br>
+[opening tag--attribute----------------closing tag] <br>
+``<a            href="./otherPage.html" ></a>`` <br>
+css<br>
+using stylesheet<br>
+[selector --- property ------ value   ]<br>
+body     {  background-color: "blue";  }<br>
+inline <br>
+``<p style="background-color:blue;"></p>`` <br>
 
 Rem unit stands for root em, and is relative to the font size of the html element. <br>
